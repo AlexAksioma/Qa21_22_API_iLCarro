@@ -1,4 +1,16 @@
 package dto;
 
-public class BookedPeriod {
+import lombok.*;
+
+@Getter
+@Setter
+@Builder
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class BookedPeriodDto {
+    private String email;    //": "string",
+    private String startDate; //: "2023-11-19",
+    private String endDate;   //: "2023-11-19"
 }
